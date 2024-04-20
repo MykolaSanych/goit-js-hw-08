@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+a:hover {
+  cursor: url(/Vector.svg), auto;
+}
